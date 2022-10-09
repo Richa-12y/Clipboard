@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clipboard</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <span>
+        <h1>With textarea</h1>
+      </span>
+      <section>
+        <textarea
+          placeholder="Write your content here and press 'Copy Text'"
+          id="clipboard-area"
+          cols="30"
+          rows="2"
+        ></textarea>
+        <textarea
+          placeholder="Paste your content here"
+          cols="30"
+          rows="2"
+        ></textarea>
+      </section>
+      <div class="button-container">
+        <button onclick="handleCopyTextFromArea()">Copy text</button>
+      </div>
+    </div>
+
+    <div class="second-container">
+      <span>
+        <h1>Without textarea</h1>
+      </span>
+      <section onmousemove="myMoveFunction()">
+        <p id="demo">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+        <textarea
+          placeholder="Paste your content here"
+          cols="30"
+          rows="2"
+        ></textarea>
+      </section>
+      <div class="button-containers">
+        <button onclick="handleCopyTextFromParagraph()">Copy text</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
