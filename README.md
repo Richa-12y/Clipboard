@@ -4,9 +4,11 @@
 - Whenever a user wants to store something in the clipboard, he enters in the textbox and on clicking on submit button, it will save in the clipboard.
 
 # Live link
+---
 
-[clipboard]("https://aesthetic-taffy-26862d.netlify.app/")
+Link:-[clipboard](https://app.netlify.com/sites/aesthetic-taffy-26862d/overview)
 
+---
 - Image
 
 ---
